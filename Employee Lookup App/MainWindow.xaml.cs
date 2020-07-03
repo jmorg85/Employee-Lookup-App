@@ -36,7 +36,7 @@ namespace Employee_Lookup_App
         }
 
         public void search_user(object sender, RoutedEventArgs e)
-        {
+        { 
             if(button_1.IsChecked == true)
             {
                 string value = button_1.Content.ToString();
@@ -45,7 +45,7 @@ namespace Employee_Lookup_App
                 fill_results_table(emp);
             }
 
-            if (button_2.IsChecked == true)
+            else if (button_2.IsChecked == true)
             {
                 string value = button_2.Content.ToString();
                 List<EmployeeClass> emp = pull_Information(value);
@@ -53,7 +53,7 @@ namespace Employee_Lookup_App
                 fill_results_table(emp);
             }
 
-            if (button_3.IsChecked == true)
+            else if (button_3.IsChecked == true)
             {
                 string value = button_3.Content.ToString();
                 List<EmployeeClass> emp = pull_Information(value);
@@ -61,7 +61,7 @@ namespace Employee_Lookup_App
                 fill_results_table(emp);
             }
 
-            if (button_4.IsChecked == true)
+            else if (button_4.IsChecked == true)
             {
                 string value = button_4.Content.ToString();
                 List<EmployeeClass> emp = pull_Information(value);
@@ -69,7 +69,7 @@ namespace Employee_Lookup_App
                 fill_results_table(emp);
             }
 
-            if (button_5.IsChecked == true)
+            else if (button_5.IsChecked == true)
             {
                 string value = button_5.Content.ToString();
                 List<EmployeeClass> emp = pull_Information(value);
@@ -77,7 +77,7 @@ namespace Employee_Lookup_App
                 fill_results_table(emp);
             }
 
-            if (button_6.IsChecked == true)
+            else if (button_6.IsChecked == true)
             {
                 string value = button_6.Content.ToString();
                 List<EmployeeClass> emp = pull_Information(value);
